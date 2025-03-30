@@ -42,6 +42,8 @@ project/
 - Проект реализован в виде онлайн-библиотеки.
 - Создана логичная структура каталогов.
 
+<img width="425" alt="image" src="https://github.com/user-attachments/assets/030a54a3-4abb-4f73-b19f-3ac9a1bb88ca" />
+
 ####  Задание 2. Форма добавления книги
 - Форма содержит:
   - название (`<input type="text">`)
@@ -51,6 +53,8 @@ project/
   - теги (`<select multiple>`)
   - главы (динамическое добавление через JavaScript)
   - кнопка отправки
+
+  <img width="255" alt="image" src="https://github.com/user-attachments/assets/cfb9414c-d7cb-4645-9684-646f571525be" />
 
 ####  Задание 3. Обработка формы
 - Данные фильтруются и валидируются в `helpers.php`.
@@ -62,6 +66,9 @@ project/
 - **public/index.php** — выводит 2 последних книги.
 - **public/book/index.php** — отображает все книги с пагинацией (по 5 на страницу).
 - Используется `GET`-параметр `page`.
+
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/fe0be0b1-64b7-43e3-affa-5cfbfaab4f90" />
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/d2d40add-45ea-461e-9813-7c381ec6b1cd" />
 
 ---
 
@@ -75,15 +82,15 @@ project/
 
 ###  Как запустить проект
 
-1. Убедитесь, что у вас установлен PHP.
-2. Откройте терминал в корне проекта.
-3. Запустите встроенный сервер:
+1. Убедиться, что установлен PHP.
+2. Открыть терминал в корне проекта.
+3. Запустить встроенный сервер:
 
    ```bash
-   php -S localhost:8000 -t public
+   php -S localhost:8000 
    ```
 
-4. Перейдите в браузере на `http://localhost:8000`
+4. Перейдити в браузере на `http://localhost:8000`
 
 ---
 
