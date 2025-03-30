@@ -53,7 +53,8 @@ project/
   - теги (`<select multiple>`)
   - главы (динамическое добавление через JavaScript)
   - кнопка отправки
-
+  - 
+**Результат:**
   <img width="255" alt="image" src="https://github.com/user-attachments/assets/cfb9414c-d7cb-4645-9684-646f571525be" />
 
 ####  Задание 3. Обработка формы
@@ -67,7 +68,10 @@ project/
 - **public/book/index.php** — отображает все книги с пагинацией (по 5 на страницу).
 - Используется `GET`-параметр `page`.
 
+**Результат public/index.php:**
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/fe0be0b1-64b7-43e3-affa-5cfbfaab4f90" />
+
+**Результат public/book/index.php:**
 <img width="326" alt="image" src="https://github.com/user-attachments/assets/d2d40add-45ea-461e-9813-7c381ec6b1cd" />
 
 ---
